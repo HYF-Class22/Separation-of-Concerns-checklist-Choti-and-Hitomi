@@ -149,7 +149,7 @@
 
 					{
 						"from": "init",
-						"allow": ["constants", "listeners", "utils", "procedures"]
+						"allow": ["constants", "listeners", "utils", "procedures", "components"]
 					},
 					{
 						"from": "constants",
