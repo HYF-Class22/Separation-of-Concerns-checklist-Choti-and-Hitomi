@@ -1,3 +1,30 @@
-.hello {
-	font-family: fantasy;
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.itemSection {
+	display: flex;
+	flex-direction: row;
+}
+
+.toDoListItem {
+	display: flex;
+	flex-direction: row;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.listItem {
+	width: 100px;
+}
+
+/* .checked {
+	text-decoration: line-through;
+} */
+
+:checked + label {
+	text-decoration: line-through;
 }
